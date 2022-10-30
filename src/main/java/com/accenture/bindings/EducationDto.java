@@ -4,8 +4,10 @@ import lombok.Data;
 
 @Data
 public class EducationDto {
+	
+	private Integer educationId;
 
-	private Integer caseNo;
+	private Long caseNo;
 	
 	private String higestDegree;
 	

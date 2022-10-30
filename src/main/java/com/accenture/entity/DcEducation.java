@@ -15,7 +15,7 @@ public class DcEducation {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer educationId;
 	
-	private Integer caseNo;
+	private Long caseNo;
 	
 	private String higestDegree;
 	

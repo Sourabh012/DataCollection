@@ -15,11 +15,9 @@ public class DcIncome {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer incomeId;
 	
-	private Integer caseNo;
+	private Long caseNo;
 	
 	private Integer empIncome;
-	
-	private Integer rentIncome;
 	
 	private Integer propertyIncome;
 	

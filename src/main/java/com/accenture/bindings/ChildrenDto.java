@@ -5,12 +5,14 @@ import lombok.Data;
 @Data
 public class ChildrenDto {
 
-	private Integer caseNo;
+	private Integer childId;
 	
-	private String name;
+	private Long caseNo;
 	
-	private Integer childrenDob;
+	private String childName;
 	
-	private Integer childrenSsn;
+	private Integer childAge;
+	
+	private Integer childSsn;
 	
 }

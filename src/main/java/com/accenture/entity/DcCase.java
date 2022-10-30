@@ -10,13 +10,11 @@ import lombok.Data;
 
 @Data
 @Entity
-public class DataCases {
+public class DcCase {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Integer caseId;
-	
-	private Integer caseNO;
+	private Long caseNO;
 	
 	private Integer appId;
 	

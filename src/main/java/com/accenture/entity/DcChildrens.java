@@ -15,9 +15,9 @@ public class DcChildrens {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer childrenId;
 	
-	private Integer caseNo;
+	private Long caseNo;
 	
-	private Integer childrenDob;
+	private Integer childAge;
 	
 	private Integer childrenSsn;
 	
