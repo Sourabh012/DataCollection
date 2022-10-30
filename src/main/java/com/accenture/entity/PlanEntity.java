@@ -23,7 +23,7 @@ import lombok.Data;
 public class PlanEntity {
 
 		@Id
-		@GeneratedValue(strategy = GenerationType.AUTO)
+		@GeneratedValue(strategy = GenerationType.IDENTITY)
 		@Column(name="Plan_Id")
 		private Integer planId;
 		

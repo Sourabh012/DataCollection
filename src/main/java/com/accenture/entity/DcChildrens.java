@@ -21,5 +21,7 @@ public class DcChildrens {
 	
 	private Integer childrenSsn;
 	
+	private String childName;
+	
 	
 }

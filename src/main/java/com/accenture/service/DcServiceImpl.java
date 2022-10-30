@@ -123,10 +123,13 @@ public class DcServiceImpl implements DcService {
 	@Override
 	public Long saveChildren(ChildRequest request) {
 		List<ChildrenDto> childs = request.getChilds();
+		Long caseNo = request.getCaseNo();
+		
 		for(ChildrenDto c : childs)
 		{
 			DcChildrens entity = new DcChildrens();
 			BeanUtils.copyProperties(c, entity);
+			entity.setCaseNo(caseNo);
 			childRepo.save(entity);
 		}
 		
